@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WTF</string>
+    <string name="text_slogan">Explore your favorite food here!</string>
+    <string name="text_login_to_wtf">Login to WTF</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">New user? <u>Register now!</u></string>
+    <string name="text_total">Total</string>
+    <string name="text_check_out">Check out</string>
+    <string name="text_add_cart">Add to cart</string>
+    <string name="text_done">Done</string>
+    <string name="text_info_description">Order between monday to saturday from 8pm to 11:30 pm</string>
+    <string name="text_info_title">Order info</string>
+    <string name="text_policy_description">All our foods are double checked before leaving our stores so by any case you found a broken food please contact our hotline immediately.</string>
+    <string name="text_policy_title">Return policy</string>
+    <string name="text_thanks_format">Thanks,\n%s</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_full_name">FullName</string>
+    <string name="hint_dob">Date of birth</string>
+    <string name="title_register">Register</string>
+    <string name="dialog_success_title">Congratulation, %s!</string>
+    <string name="dialog_success_desc">You have been successfully registered.</string>
+    <string name="dialog_error">Error!</string>
+    <string name="greeting_title_format">Hey, %s!</string>
+    <string name="greeting_desc">What do you have a taste for?</string>
+    <string name="label_category">Categories</string>
+    <string name="label_category_detail">Choose your favorite %s.</string>
+    <string name="toast_text_empty">No food added.</string>
+    <string name="title_order_history">Order history</string>
+    <string name="toolbar_order">Your order</string>
+    <string name="text_invoice">Order detail</string>
+    <string name="text_invoice_id">Order ID</string>
+    <string name="text_invoice_date">Order date</string>
+
+</resources>

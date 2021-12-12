@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@+id/navigation_flow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/splash_screen_fragment">
+
+    <fragment
+        android:id="@+id/splash_screen_fragment"
+        android:name="com.application.wtf.SplashScreenFragment">
+        <action
+            android:id="@+id/action_splash_screen_fragment_to_login_fragment"
+            app:destination="@id/login_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.application.wtf.auth.LoginFragment">
+        <action
+            android:id="@+id/action_login_fragment_to_register_fragment"
+            app:destination="@id/register_fragment" />
+        <action
+            android:id="@+id/action_login_fragment_to_main_category"
+            app:destination="@id/main_category" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.application.wtf.auth.RegisterFragment">
+        <action
+            android:id="@+id/action_register_fragment_to_main_category"
+            app:destination="@id/main_category" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/main_category"
+        android:name="com.application.wtf.category.MainCategoryFragment">
+        <action
+            android:id="@+id/action_main_category_to_order_list"
+            app:destination="@id/order_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/order_list"
+        android:name="com.application.wtf.category.OrderListFragment">
+        <action
+            android:id="@+id/action_order_list_to_make_order"
+            app:destination="@id/make_order" />
+        <action
+            android:id="@+id/action_order_list_to_order_history"
+            app:destination="@id/order_history" />
+    </fragment>
+    <fragment
+        android:id="@+id/make_order"
+        android:name="com.application.wtf.category.MakeOrderFragment">
+    </fragment>
+    <fragment
+        android:id="@+id/order_history"
+        android:name="com.application.wtf.category.OrderHistoryFragment" />
+</navigation>
